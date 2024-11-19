@@ -1,0 +1,15 @@
+[
+  {
+    "id": "1",
+    "nombre": "Luke Skywalker",
+    "altura": "172",
+    "masa": "77",
+    "color_cabello": "blond",
+    "color_piel": "fair",
+    "color_ojos": "blue",
+    "año_nacimiento": "19BBY",
+    "genero": "male",
+    "fecha_creacion": "2024-01-01T00:00:00.000Z",
+    "fecha_actualizacion": "2024-01-01T00:00:00.000Z"
+  }
+]

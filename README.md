@@ -39,3 +39,34 @@ Esta implementación incluye:
 - CORS habilitado
 - Tipos TypeScript completos
 - Documentación de uso
+
+5. Estructura del proyecto:
+```bash
+star-wars-api/
+├── seeds/
+│   └── personajes.json
+├── src/
+│   ├── config/
+│   │   └── database.ts
+│   ├── core/
+│   │   ├── interfaces/
+│   │   │   └── personaje.interface.ts
+│   │   └── types/
+│   │       └── response.type.ts
+│   ├── database/
+│   │   └── dynamodb.ts
+│   ├── handlers/
+│   │   └── personajes.ts
+│   ├── models/
+│   │   └── personaje.model.ts
+│   ├── services/
+│   │   └── swapi-client.ts
+│   ├── utils/
+│   │   └── traductor.ts
+│   └── tests/
+│       └── personajes.test.ts
+├── serverless.yml
+├── package.json
+├── tsconfig.json
+└── README.md
+```
